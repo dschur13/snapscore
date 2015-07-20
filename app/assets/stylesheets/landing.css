@@ -1,0 +1,365 @@
+// Place all the styles related to the static_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+@import "font-awesome";
+
+
+.hidden-top h1 {
+	font-size: 5vh;
+	line-height: 1.3em;
+	margin: 0;
+	padding: .6em .2vw 0 .2vw;
+	font-family: 'Oswald';
+	color: #FFF;
+	letter-spacing: .5vw;
+	text-align: center;
+
+}
+
+.hidden-top h2 {
+	font-size: 1.5vh;
+	line-height: 2em;
+	margin: 0;
+	padding: .6em .8vw 0 .8vw;
+	font-family: 'Oswald';
+	color: #FFF;
+	letter-spacing: .5vw;
+	text-align: center;
+
+}
+.hidden-top {
+	background: rgba(146,196,61,.8);
+	height: 90vh;
+}
+
+
+.analytics .row {
+	background: rgba(19,82,151,.15);
+	min-height: 90vh;
+}
+
+.data .row {
+	background: rgba(146,196,61,.15);
+	min-height: 90vh; 
+}
+
+.security .row {
+	background: rgba(41,179,232,.15);
+	min-height: 90vh;
+}
+
+.top {
+	background: url("http://www.pixeden.com/media/k2/galleries/112/003-subtle-light-pattern-background-texture.jpg");
+	background-size: 10vh;
+	background-repeat: repeat;
+	min-height: 90vh;
+}
+.top_analytics {
+	// background: rgba(19,82,151, .65);
+	min-height: 90vh;
+	    height: 90vh;
+	    background: -webkit-linear-gradient(top, rgba(19,82,151,.45), rgba(19,82,151,1)); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(top, rgba(19,82,151,.45), rgba(19,82,151,1)); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(top,rgba(19,82,151,.45), rgba(19,82,151,1)); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(to top, rgba(19,82,151,.45), rgba(19,82,151,1)); /* Standard syntax (must be last) */
+
+    }
+
+.top_data {
+	// background: rgba(146, 196, 61, .65);
+	min-height: 90vh;
+	    height: 90vh;
+	    background: -webkit-linear-gradient(top, rgba(146,196,61,.45), rgba(146,196,61,1)); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(top, rgba(146,196,61,.45), rgba(146,196,61,1)); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(top, rgba(146,196,61,.45), rgba(146,196,61,1)); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(to top, rgba(146,196,61,.45), rgba(146,196,61,1)); /* Standard syntax (must be last) */
+}
+
+
+.top_security {
+	// background: rgba(top, rgba(41,179,232,0), rgba(41,179,232,.45), rgba(41,179,232,1));
+	min-height: 90vh;
+	    height: 90vh;
+	    background: -webkit-linear-gradient(top, rgba(41,179,232,.45), rgba(41,179,232,1)); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(top, rgba(41,179,232,.45), rgba(41,179,232,1)); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(top, rgba(41,179,232,.45), rgba(41,179,232,1)); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(to top, rgba(41,179,232,.45), rgba(41,179,232,1)); /* Standard syntax (must be last) */
+
+    }
+
+/* Navbar container Styling */
+
+.navbar-default {
+ 
+  height: 70px;
+  width: auto;
+  background-color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  border-bottom: thick;
+  border-bottom-color: #92c43d;
+}
+
+/* nav links */
+
+
+.navbar-default .navbar-nav > li > a {
+  color: rgba( 0, 0, 0, 1);
+  padding-right: 2vw;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  border-bottom: thick;
+  border-bottom-color: #92c43d
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: rgba( 41, 179, 232, .65);
+}
+
+/* collapse menu styling */
+@media only screen and (max-width: 780px) {
+.collapsing, .in {
+	background-color: rgb(146, 196, 61); opacity: 1;
+	padding-top: 0;
+}
+}
+
+
+/* brand */
+
+.navbar-default .navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  color: #FFFFFF;
+  margin-top: 0.3em;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+
+div.clearfix {
+  text-align: center;
+}
+
+.callout {
+  height: 263px;
+  width: 100%;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.container-fluid {
+	padding-right: 10vw;
+	padding-top: 2vh;
+}
+.inner-container {
+  padding-top: 5.5em;
+}
+
+/* Header Page Background */
+
+div#page1 {
+  width: 100%;
+}
+
+/* About page */
+
+#page2 {
+  width:100%;
+  background:#FFFFFF;
+}
+
+.title {
+  font-weight: bold;
+}
+
+/* Contact */
+
+#page3 {
+  width:100%;
+  background:#FFFFFF;
+}
+
+/* body stylessss */
+
+h1 {
+  margin: 0;
+  padding: .6em .2vw 0 .2vw;
+  font-family: 'Oswald';
+  font-size: 4vw;
+  color: #FFF;
+  letter-spacing: .5vw;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: .5em .6vw .5em .6vw;
+  margin: 0;
+  color: #FFF;
+  line-height: 1.3em;
+  letter-spacing: .2vw;
+}
+
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+div.wrapper {
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+
+div.grid-unit {
+  position: relative;
+  width: 33.33%;
+  float: left;
+  display: inline;
+  margin: 0px 0px 1.8em 0px;
+  text-align: center;
+}
+
+
+div.circle:after {
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  content: "";
+  display: block;
+  width: 90%;
+  height: 0;
+  padding-bottom: 100%;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+}
+
+img {
+  width: auto;
+  max-width: 70%;
+  vertical-align: top;
+  height: auto;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.circular {
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.875em 0;
+  padding: 0 3.125em;
+}
+
+section {
+  margin: 0 4em 0 4em;
+}
+
+@media screen and (max-width: 1280px) {
+  div.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+}
+
+@media screen and (max-width: 768px) {
+  div.grid-unit {
+  width: 50%;
+}
+}
+
+@media screen and (max-width: 480px) {
+  div.grid-unit {
+  width: 100%;
+  float: none;
+  display: block;
+  padding: 0 1em 1em;
+}
+}
+
+/* Footer */
+
+footer {
+  position: static;
+  width: 100%;
+  height: 100px;
+  background-color: #449d44;
+  border-color: #398439;
+  background-position: 0% 0%;
+}
+
+
+p.text-muted {
+  margin-top: 2em;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.divider {
+    border-color: #92c43d;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 10px;
+    line-height: 20px;
+    text-align:center;
+    overflow: visable;
+}
+
+.divider span {
+    background-color: #92c43d;
+    display: inline-block;
+    min-height: 15px;
+    min-width: 100%;
+}
+
+.divider-bottom span {
+    background-color: #92c43d;
+    display: inline-block;
+    min-height: 15px;
+    min-width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
